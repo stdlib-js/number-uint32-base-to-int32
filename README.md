@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-uint32ToInt32 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint32-base-to-int32@umd/browser.js' )
+uint32ToInt32 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint32-base-to-int32@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var uint32ToInt32 = require( 'path/to/vendor/umd/number-uint32-base-to-int32/ind
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-uint32-base-to-int32@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-uint32-base-to-int32@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -100,7 +100,7 @@ y = uint32ToInt32( float64ToUint32( 3 ) );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint32-max@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-uint32@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-uint32-base-to-int32@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-uint32-base-to-int32@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
