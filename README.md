@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import uint32ToInt32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint32-base-to-int32@deno/mod.js';
+import uint32ToInt32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint32-base-to-int32@v0.2.0-deno/mod.js';
 ```
 
 #### uint32ToInt32( x )
@@ -73,7 +73,7 @@ y = uint32ToInt32( float64ToUint32( 3 ) );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import MAX_UINT32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint32-max@deno/mod.js';
 import float64ToUint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-uint32@deno/mod.js';
-import uint32ToInt32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint32-base-to-int32@deno/mod.js';
+import uint32ToInt32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint32-base-to-int32@v0.2.0-deno/mod.js';
 
 var uint32;
 var int32;
