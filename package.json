@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/number-uint32-base-to-int32",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Convert an unsigned 32-bit integer to a signed 32-bit integer.",
   "license": "Apache-2.0",
   "author": {
