@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import uint32ToInt32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint32-base-to-int32@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/number-uint32-base-to-int32/tags). For example,
+
+```javascript
 import uint32ToInt32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint32-base-to-int32@v0.2.3-esm/index.mjs';
 ```
 
@@ -78,7 +83,7 @@ y = uint32ToInt32( float64ToUint32( 3 ) );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import MAX_UINT32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint32-max@esm/index.mjs';
 import float64ToUint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-uint32@esm/index.mjs';
-import uint32ToInt32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint32-base-to-int32@v0.2.3-esm/index.mjs';
+import uint32ToInt32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint32-base-to-int32@esm/index.mjs';
 
 var uint32;
 var int32;
